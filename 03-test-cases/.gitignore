@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Операційна система
+.DS_Store
+Thumbs.db
+
+# Середовище розробки
+.idea/
+.vscode/
+*.swp
+*~
+
+# Змінні оточення
+.env
+.env.local

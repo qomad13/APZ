@@ -1,0 +1,23 @@
+{
+  "GroupName": "apz-ec2-windows-rdp",
+  "GroupDescription": "Allow RDP (3389) from my IP only - APZ Lab 5 EC2 Windows",
+  "VpcId": "vpc-xxxxxxxx",
+  "IpPermissions": [
+    {
+      "IpProtocol": "tcp",
+      "FromPort": 3389,
+      "ToPort": 3389,
+      "IpRanges": [
+        {
+          "CidrIp": "YOUR_PUBLIC_IP/32",
+          "Description": "RDP access from admin workstation"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    { "Key": "Name", "Value": "apz-ec2-windows-rdp-sg" },
+    { "Key": "Project", "Value": "APZ-Lab5" },
+    { "Key": "Student", "Value": "Ledachkov IS, 121-23-1" }
+  ]
+}

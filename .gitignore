@@ -1,0 +1,18 @@
+# Операційна система
+.DS_Store
+Thumbs.db
+
+# Середовище розробки
+.idea/
+.vscode/
+*.swp
+*~
+
+# Секрети
+*.pem
+*.ppk
+*.key
+*.secrets
+.env
+.env.*
+*.credentials
